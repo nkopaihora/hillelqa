@@ -1,0 +1,18 @@
+Hi Nick
+GIT команды:
+git --version - проверка версии GIT
+git config --global user.name "USERNAME" - глобальная конфигурация USERNAME
+git config --global user.email "Email" - глобальная конфигурация Email
+git init - инициализация локальной директории
+git status - информация о текущем состоянии репозитория
+git add test.txt - добавление файла test.txt к коммиту
+git add . добавление всех файлов к коммиту
+git commit -m "Messsage" - создание коммита в локальном репозитории
+git push origin Branch - пересылка из локального коммита на сервер
+git branch - отображение всех доступных веток
+git checkout -b nameofbranch - создание и переключение на ветку
+git checkout nameofbranch - переключение на ветку
+git merge nameofbranch - слияние веток
+git clone URL - скачивание проекта на локальный репозиторий
+git pull - стянуть все изменения из репозитория
+git log - список всех коммитов ветки (выход q)
